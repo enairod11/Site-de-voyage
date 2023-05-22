@@ -1,0 +1,40 @@
+.accordion li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .accordion li img {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion .content {
+    display: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .accordion .active .content {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  aside {
+    background-color: rgba(161, 199, 159, 0.877);
+    border-radius: 20px;
+    width: 10%;
+    max-width: auto;
+    float: right;
+    position: fixed;
+  }
+
+  aside h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  
+  
